@@ -3,47 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Your Name</h1>
-        <p>Software Engineer | Web Developer</p>
+        <h1>Welcome to My Personal Website</h1>
         <nav>
-            <a href="#about">About</a>
-            <a href="#resume">Resume</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#kcmalgos">KCMalgos</a></li>
+                <li><a href="#coding-projects">Coding Projects</a></li>
+                <li><a href="#why-hire-me">Why You Should Hire Me</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Brief introduction about yourself.</p>
-    </section>
+    <main>
+        <section id="about-me" class="active">
+            <h2>About Me</h2>
+            <img src="images/me.jpeg" alt="Your Name" class="profile-pic">
+            <p>Hello! I'm Keshav Dave, a passionate developer with a love for coding and problem-solving. I enjoy creating innovative solutions and learning new technologies.</p>
+        </section>
 
-    <section id="resume">
-        <h2>Resume</h2>
-        <a href="resume.pdf" download>Download My Resume</a>
-    </section>
+        <section id="kcmalgos">
+            <h2>KCMalgos</h2>
+            <p>This section is currently under construction.</p>
+        </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project Name</h3>
-            <p>Description of the project.</p>
-            <a href="https://github.com/your-profile/project">GitHub</a>
-        </div>
-    </section>
+        <section id="coding-projects">
+            <h2>Coding Projects</h2>
+            <p>This section will showcase my coding projects in the future.</p>
+        </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-    </section>
+        <section id="why-hire-me">
+            <h2>Why You Should Hire Me</h2>
+            <p>I am dedicated, skilled, and always eager to learn. I believe I can bring value to your team and help achieve your goals.</p>
+        </section>
+    </main>
 
     <footer>
-        <p>© 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2023 [Your Name]. All rights reserved.</p>
     </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetSection = document.querySelector(this.getAttribute('href'));
+                document.querySelectorAll('main section').forEach(section => {
+                    section.classList.remove('active');
+                });
+                targetSection.classList.add('active');
+            });
+        });
+    </script>
 </body>
 </html>
