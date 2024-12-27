@@ -3,15 +3,17 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif; /* Changed font to Poppins */
     margin: 0;
     padding: 0;
-    background-color: #e0f7fa;
+    background-image: url('images/tech-background.jpeg'); /* Set your tech background image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
     color: #333;
 }
 
 header {
-    background: linear-gradient(135deg, #007BFF, #00CFFF);
+    background: rgba(0, 123, 255, 0.8); /* Semi-transparent background for header */
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -44,6 +46,8 @@ nav ul li a:hover {
 
 main {
     padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background for main content */
+    border-radius: 8px;
 }
 
 section {
@@ -63,7 +67,7 @@ section.active {
 }
 
 .profile-pic {
-    width: 200px;
+    width: 400px;
     height: auto;
     border-radius: 50%;
     display: block;
