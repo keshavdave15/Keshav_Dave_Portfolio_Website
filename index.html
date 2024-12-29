@@ -13,9 +13,9 @@
         <nav>
             <ul>
                 <li><a href="#about-me">About Me</a></li>
-                <li><a href="#kcmalgos">KCMalgos</a></li>
-                <li><a href="#coding-projects">Coding Projects</a></li>
-                <li><a href="#resume">Resume</a></li> <!-- Updated tab name -->
+                <li><a href="#kcmalgos">KCMAlgos</a></li>
+                <li><a href="#coding-projects">Personal Projects</a></li>
+                <li><a href="#resume">Resume</a></li> 
             </ul>
         </nav>
     </header>
@@ -39,55 +39,223 @@
         </section>
 
         <section id="kcmalgos">
-            <h2>KCMAlgos</h2>
-            <p>This section is currently under construction.</p>
+            <h2>KCM Algos LLC</h2>
+            <p><strong>KCM Algos LLC</strong> is an innovative and results-driven startup that I co-founded with two roommates, dedicated to designing and deploying proprietary trading algorithms. Since its inception, the company has successfully generated over $10,000 in revenue by leveraging advanced technical analysis, automation, and cutting-edge machine learning techniques. Our profits have mainly been generated in cooperation with prop trading firm FTMO. Personally, I have taken the lead on this project, from coming up with a fun and potentially profitable summer project idea to writing and backtesting the entirety of our most profitable technical analysis trading functions.</p>
+                        
+            <h3>What We Do</h3>
+            <p>At KCM Algos, we specialize in developing cloud-based, algorithmic trading solutions designed to evaluate complex market data in real time, execute trades automatically, and integrate seamlessly with brokers' APIs. Our work embodies a blend of financial insight and technological expertise, showcasing the following core achievements:</p>
+
+            <ul>
+                <li><strong>Cloud-Based Algorithms:</strong> Built and deployed algorithms on AWS cloud infrastructure, ensuring reliability and scalability for real-time trading.</li>
+                <li><strong>Technical Analysis Expertise:</strong> Engineered sophisticated trading strategies using <strong>PineScript</strong>, including frameworks like ICT Silver Bullet and Lorentzian Classification, tailored for precise market predictions and performance optimization.</li>
+                <li><strong>Broker API Integration:</strong> Designed and implemented seamless API integrations to automate trade execution with zero downtime.</li>
+                <li><strong>Real-Time Communication:</strong> Enabled HTTP webhook communication between PineScript strategies and Python-based AWS server programs for high-speed, accurate trade execution.</li>
+            </ul>
+
+            <h3>Technical Skills Showcased</h3>
+            <p>Through this project, I have demonstrated expertise in:</p>
+            <ul>
+            <li><strong>Programming Languages:</strong> Python, PineScript</li>
+            <li><strong>Cloud Infrastructure:</strong> AWS (Amazon Web Services)</li>
+            <li><strong>Algorithm Development:</strong> Advanced data structures, market trend analysis, and strategy optimization.</li>
+            <li><strong>API Design:</strong> Integration with brokerage APIs for automated trading.</li>
+            <li><strong>HTTP Communication:</strong> Building and testing webhook-based alerts and interactions.</li>
+            <li><strong>Collaboration:</strong> Working effectively within a team to design, develop, and deploy complex systems.</li>
+            </ul>
+
+            <p><strong>KCM Algos LLC</strong> reflects my entrepreneurial spirit, technical skills, and passion for innovation in both software development and financial technologies.</p>
+
+                          
+            <h3>Total Profit Proof</h3>
+            <img src="images/payouts.jpeg" alt="Payouts" class="medium-image">
+            <p class="subtitle">This is how much profit we made in 2024!</p>
+
+            <h3>Other Official Awards</h3>
+            <img src="images/challenge.jpeg" alt="Payouts" class="medium-image">
+            <img src="images/verification.jpeg" alt="Payouts" class="medium-image">
+        
+            <h3>Data Analysis</h3>
+            <img src="images/chart.jpeg" alt="TradingView Chart" class="medium-image">
+            <p class="subtitle">This chart is a TradingView chart that we use Pinescript to extract data from. Relevant data will get sent by HTTP webhook in JSON to our AWS Lambda cloud server</p>
+        
+            <h3>AWS Infrastructure</h3>
+            <img src="images/aws.jpeg" alt="AWS Lambda Management Console" class="medium-image">
+            <p class="subtitle">This is a picture of our AWS Lambda management console dashboard, as we use AWS Lambda to host our algorithms on the cloud and deliver trading information to our brokers autonomously.</p>
+        
+            <p>Due to proprietary reasons, we cannot share too much code from our technical analysis algorithms or our cloud server. However, we are committed to transparency and will provide insights into our methodologies and strategies as we continue to grow.</p>
         </section>
 
         <section id="coding-projects">
-            <h2>Coding Projects</h2>
-            <p>This section will showcase my coding projects in the future.</p>
+            <h2>Personal Projects</h2>
+            <p>For more details about all my projects, please visit my <a href="https://github.com/keshavdave15" target="_blank">GitHub</a>.</p>
+        
+            <div class="project">
+                <h3>Android Pizza App</h3>
+                <p>
+                    The <strong>Android Pizza App</strong> is a dynamic and interactive Android application that brings the RU Pizzeria experience to life. Designed for users to seamlessly order their favorite pizzas, the app offers customization options for Chicago and New York-style pizzas, making it both functional and intuitive.<br><br>
+                    
+                    <strong>Key Features:</strong><br>
+                    - <strong>Pizza Styles:</strong> Choose between Chicago-style or New York-style pizzas with distinct crusts and flavors.<br>
+                    - <strong>Specialty Pizzas:</strong> Preconfigured options such as Deluxe, BBQ Chicken, and Meatzza, each loaded with unique toppings.<br>
+                    - <strong>Build Your Own Pizza:</strong> Customize pizzas with up to 7 toppings from a selection of 13 available options.<br>
+                    - <strong>Dynamic Pricing:</strong> Prices adjust dynamically based on pizza size (Small, Medium, Large), with additional costs for extra toppings.<br>
+                    - <strong>Order Management:</strong> Add multiple pizzas to a single order, view, modify, or delete pizzas in real-time, and automatically calculate subtotals, NJ sales tax (6.625%), and order totals.<br>
+                    - <strong>Export Orders:</strong> Save order details to a text file for record-keeping or sharing.<br><br>
+                    
+                    <strong>Technical Highlights:</strong><br>
+                    - <strong>Modern Android UI Components:</strong> Uses <em>RecyclerView</em> to dynamically display pizza options and toppings with images, and implements <em>Spinner, AlertDialog, ListView</em>, and <em>Toast</em> for an engaging and responsive user experience.<br>
+                    - <strong>Multi-Screen Navigation:</strong> Two distinct Android Activities ensure a smooth user flow between pizza customization and order summary.<br>
+                    - <strong>Singleton Design Pattern:</strong> A centralized data model allows efficient order and pizza data management across the app.<br>
+                    - <strong>Custom Resources:</strong> Unique launcher icons and pizza images create a polished, professional aesthetic, with `strings.xml` used to eliminate hardcoded text.<br><br>
+                    
+                    <strong>Technology Stack:</strong><br>
+                    - <strong>Java:</strong> Drives core business logic and functionality.<br>
+                    - <strong>XML:</strong> Powers the intuitive and visually appealing layouts.<br>
+                    - <strong>Gradle:</strong> Handles build automation and dependency management.<br>
+                    - <strong>Android Studio:</strong> Provides the development environment for coding, testing, and debugging.<br><br>
+                    
+                    <strong>Code Structure:</strong><br>
+                    - <strong>app/src/main/java/:</strong> Houses the pizza class hierarchy (<em>Deluxe, BBQChicken, Meatzza, BuildYourOwn</em>) and controllers for pizza creation and order management.<br>
+                    - <strong>app/src/main/res/:</strong> Contains XML layouts for UI screens, launcher icons, and string resources for consistent text management.<br><br>
+                    
+                    The Android Pizza App demonstrates advanced Android development skills, including user-friendly interfaces, responsive design, and efficient data handling. It's an ideal solution for enhancing customer experiences in pizza ordering systems while showcasing modern app development practices.
+                </p>
+                <video controls class="project-video">
+                    <source src="images/android_pizza_app_demo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        
+            <div class="project">
+                <h3>Clinic Manager GUI</h3>
+                <p>
+                    The <strong>Clinic Manager GUI</strong> is a JavaFX-based graphical user interface (GUI) application designed to efficiently manage clinic appointments for office visits and imaging services. This project builds on previous iterations of the RU Clinic Scheduler by introducing a modern GUI while maintaining robust scheduling capabilities.<br><br>
+                    
+                    <strong>Key Features:</strong><br>
+                    - <strong>Appointment Management:</strong> Schedule, reschedule, and cancel appointments for office visits or imaging services while ensuring provider availability and avoiding scheduling conflicts.<br>
+                    - <strong>Imaging Services:</strong> Book X-rays, ultrasounds, and CAT scans with automatic technician assignment using a circular list. Manage imaging rooms for each service type across multiple clinic locations.<br>
+                    - <strong>Dynamic Views:</strong> View appointments by location, provider, or patient. Display expected credits for providers based on completed appointments.<br>
+                    - <strong>Error Handling:</strong> Comprehensive validation rejects invalid data to prevent crashes and provides user-friendly error messages via the GUI.<br><br>
+                    
+                    <strong>Technology Stack:</strong><br>
+                    - <strong>JavaFX:</strong> Utilizes components such as <em>TextField, Button, RadioButton, TextArea, TableView, TabPane</em>, and <em>GridPane</em> to create an interactive GUI. FXML is used to define the scene graph for the application.<br>
+                    - <strong>MVC Design Pattern:</strong> Employs a Model-View-Controller architecture:<br>
+                      - <em>Model:</em> Handles business logic and data models from previous iterations.<br>
+                      - <em>View:</em> Defined in <code>clinic-view.fxml</code> for GUI layout.<br>
+                      - <em>Controller:</em> Manages event handling and GUI interactions in <code>ClinicManagerController.java</code>.<br>
+                    - <strong>Java:</strong> Reuses core logic from earlier projects, ensuring modular and reusable code.<br><br>
+                    
+                    <strong>How It Works:</strong><br>
+                    - <strong>GUI Workflow:</strong> Input appointment details using form fields and buttons. Appointments are displayed, filtered, and sorted in a structured <em>TableView</em> with real-time updates for changes.<br>
+                    - <strong>Validation:</strong> Strict rules enforce data integrity, such as valid dates, provider availability, and non-overlapping appointments.<br>
+                    - <strong>Dynamic Technician Assignment:</strong> Technicians are assigned to imaging appointments using a rotation system, ensuring balanced workloads.<br><br>
+                    
+                    <strong>Requirements:</strong><br>
+                    - <strong>Java 17 or higher</strong> and <strong>JavaFX 17 or higher</strong> for proper functionality.<br><br>
+                    
+                    <strong>Future Enhancements:</strong><br>
+                    - Add detailed patient profiles with medical history.<br>
+                    - Implement login and role-based access for clinic staff and administrators.<br>
+                    - Integrate database support for persistent storage of appointments and provider data.<br><br>
+                    
+                    The <strong>Clinic Manager GUI</strong> is a comprehensive solution for clinic scheduling needs, combining efficient appointment management with a user-friendly interface, robust validation, and a flexible architecture that allows for future enhancements.
+                </p>
+                <video controls class="project-video">
+                    <source src="images/clinic_manager_gui_demo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        
+            <div class="project">
+                <h3>MySH Project</h3>
+                <p>
+                    The <strong>MySH Shell Project</strong> is a custom-built Unix-like shell terminal developed for the Rutgers University Systems Programming course. This project showcases advanced systems programming skills, including process management, piping, redirection, and command execution. It supports both interactive and batch modes, making it versatile and practical for various use cases.<br><br>
+                    
+                    <strong>Key Features:</strong><br>
+                    - <strong>Interactive and Batch Modes:</strong> The shell operates interactively with a command-line prompt or processes a series of commands in batch mode.<br>
+                    - <strong>Command Execution:</strong> Executes external programs using <code>execv()</code>, with arguments dynamically managed by a custom-built array list.<br>
+                    - <strong>Redirection:</strong> Standard output can be redirected to files (existing or new) using <code>dup2()</code>. When combined with pipes, redirection takes precedence.<br>
+                    - <strong>Piping:</strong> Supports single-pipe operations, directing the output of one program to the input of another using <code>pipe()</code>. Both processes run concurrently.<br>
+                    - <strong>Built-In Commands:</strong> Includes essential commands such as <code>cd</code>, <code>pwd</code>, <code>which</code>, and <code>exit</code>, offering native shell functionality.<br>
+                    - <strong>Wildcard Support:</strong> Handles wildcards in command arguments and file paths for flexible command usage.<br>
+                    - <strong>Conditional Execution:</strong> Implements basic <code>if</code> and <code>else</code> logic, enabling conditional program execution.<br><br>
+                    
+                    <strong>Technical Highlights:</strong><br>
+                    - Implements system calls like <code>dup2()</code>, <code>pipe()</code>, <code>fork()</code>, and <code>wait()</code> for process and I/O management.<br>
+                    - Custom <code>arraylist</code> helper functions manage dynamic argument lists.<br>
+                    - Supports commands with up to 3000 characters, 200 tokens, and token lengths of up to 200 characters.<br>
+                    - Provides robust error handling for invalid commands, syntax issues, and file I/O errors.<br><br>
+                    
+                    <strong>Usage:</strong><br>
+                    1. Compile the program:<br>
+                    <code>gcc -o mysh mysh.c arraylist.c</code><br>
+                    2. Run in interactive mode:<br>
+                    <code>./mysh</code><br>
+                    3. Run in batch mode:<br>
+                    <code>./mysh batchtest.txt</code><br><br>
+                    
+                    <strong>Design Approach:</strong><br>
+                    - Developed in three stages:<br>
+                      1. Built loops for batch and interactive modes and implemented arraylist helper functions.<br>
+                      2. Parsed command strings to determine the executable path, argument list, and input/output files.<br>
+                      3. Wrote execution functions to manage child processes, piping, and redirection using system calls.<br><br>
+                    
+                    <strong>Testing:</strong><br>
+                    - Interactive Mode: Tested with various command combinations, redirection, and piping scenarios.<br>
+                    - Batch Mode: Verified functionality with testing files such as <code>batchtest.txt</code>.<br>
+                    - Includes test directories and files such as <code>test</code>, <code>test.txt</code>, and <code>test2.txt</code> to demonstrate edge cases and functionality.<br><br>
+                    
+                    The <strong>MySH Shell Project</strong> reflects dozens of hours of meticulous development, demonstrating expertise in systems programming and shell design. While minor bugs may exist in rare edge cases, this project offers a functional and robust shell experience with advanced features and attention to detail.
+                </p>
+                <img src="images/mysh_project_screenshot.jpeg" alt="MySH Project Screenshot" class="project-image">
+            </div>
+        
+            <div class="project">
+                <h3>Spell Checker Program</h3>
+                <p>
+                    The <strong>Spell Checker Program</strong> is a project developed for the Rutgers University Systems Programming course. This program efficiently detects and reports spelling errors in one or more text files using a binary search through a dictionary file. Designed for accuracy and flexibility, it supports directory traversal and handles various input scenarios while ensuring precise error reporting.<br><br>
+                    
+                    <strong>Key Features:</strong><br>
+                    - <strong>Multi-File and Directory Support:</strong> Processes individual text files or entire directories, skipping hidden files and directories starting with a ".".<br>
+                    - <strong>Binary Search Algorithm:</strong> Utilized for fast and accurate dictionary lookups.<br>
+                    - <strong>Error Reporting:</strong> Clearly identifies spelling errors with their file name, line number, and column position (e.g., <code>file1 (35,8): foom</code>).<br>
+                    - <strong>Custom Input Handling:</strong> Handles edge cases such as hyphens, capitalization, and trailing punctuation, ensuring robust word processing.<br><br>
+                    
+                    <strong>How It Works:</strong><br>
+                    1. <strong>Finding Files:</strong> The <code>traverseDirectory</code> function opens and identifies all relevant files and directories for processing.<br>
+                    2. <strong>Reading and Annotating Words:</strong> Extracts words from text files, calculates their positions, and accounts for punctuation and capitalization.<br>
+                    3. <strong>Dictionary Lookup:</strong> Uses a binary search to check words against the dictionary file, reporting any misspelled words.<br>
+                    4. <strong>Main Program:</strong> Combines all components in <code>spchk.c</code>, creating a comprehensive spell-checking solution.<br><br>
+                    
+                    <strong>Technology Stack:</strong><br>
+                    - <strong>C:</strong> Core programming language used for efficient file handling and binary search implementation.<br>
+                    - <strong>Unix File System:</strong> Enables directory traversal and file processing.<br><br>
+                    
+                    <strong>Testing:</strong><br>
+                    - <strong>Part One:</strong> Tests file and directory traversal using <code>part_one_test.c</code>, ensuring all valid files are opened.<br>
+                    - <strong>Part Two:</strong> Validates word extraction and position annotation with <code>part_two_test.c</code>, handling trailing punctuation and capitalization.<br>
+                    - <strong>Part Three:</strong> Tests dictionary lookups using <code>part_three_test.c</code>, ensuring accurate word validation through binary search.<br>
+                    - <strong>Comprehensive Testing:</strong> Combines all parts into <code>spchk.c</code> for end-to-end functionality testing.<br><br>
+                    
+                    <strong>Usage:</strong><br>
+                    Compile and run the program using the following commands:<br>
+                    <code>gcc -o spchk spchk.c</code><br>
+                    <code>./spchk /path/to/dictionary file_or_directory1 file_or_directory2</code><br><br>
+                    
+                    <strong>Examples:</strong><br>
+                    <code>gcc -o spchk spchk.c /usr/share/dict/words testingDirectory test.txt .test.txt</code><br>
+                    <code>./spchk</code><br><br>
+                    
+                    The <strong>Spell Checker Program</strong> is an excellent demonstration of systems programming skills, including efficient data structures, file handling, and robust testing practices. It provides an accurate and user-friendly approach to identifying and addressing spelling errors in text files.
+                </p>
+                <img src="images/spell_checker_program_screenshot.jpeg" alt="Spell Checker Program Screenshot" class="project-image">
+            </div>
         </section>
 
         <section id="resume">
             <h2>Resume</h2>
-            <h3>Education</h3>
-            <p><strong>Rutgers University</strong> - Pursuing a Bachelor’s Degree in Computer Science with a minor in Business Administration</p>
-            <p>Dean’s List, GPA: 3.7</p>
-
-            <h3>Experience</h3>
-            <h4>KCM Algos LLC, Remote - Business Owner (June 2023 - Present)</h4>
-            <ul>
-                <li>Algorithm Day-Trading Bot Project: Successful startup focused on proprietary trading algorithms, generating over $10,000 in revenue from prop trading firms in 2024.</li>
-                <li>Engineered AWS cloud-based algorithms capable of comprehensive market evaluation, trade execution, and seamless integration with our chosen broker's APIs.</li>
-                <li>Implemented sophisticated Technical Analysis algorithms using Pinescript, facilitating the generation of HTTP webhook alerts to our Python-based AWS server program for communication with the broker API.</li>
-                <li>Successfully developed, fine-tuned, and rigorously tested two pivotal Pinescript automated trading strategies based around ICT Silver Bullet and Lorentzian Classification frameworks.</li>
-            </ul>
-
-            <h4>NightStar Partners, Remote - Software Development Intern (May 2022 - July 2022)</h4>
-            <ul>
-                <li>Engaged with NightStar Partners, a distinguished Microsoft Gold Partner company, taking on numerous projects such as a fully functional login page, database, and authentication algorithms.</li>
-                <li>Collaborated remotely with the offshore development team, gaining hands-on experience in C++ programming.</li>
-                <li>Actively participated in virtual business meetings and customer interactions, showcasing adept communication and collaboration skills.</li>
-                <li>Demonstrated a proactive approach by attending IAMCP (International Association of Microsoft Channel Partners) meetings, further enhancing industry knowledge and networking within the company.</li>
-            </ul>
-
-            <h4>CVS, Parsippany NJ - Retail Store Associate (September 2021 - February 2022)</h4>
-            <ul>
-                <li>Developed vital social skills for the workplace, emphasizing responsibility and task completion.</li>
-                <li>Gained invaluable insights into the significance of responsibility and time management, effectively juggling multiple tasks and delivering results in a timely manner.</li>
-            </ul>
-
-            <h3>Skills</h3>
-            <p>Java, Python, C, C++, Data Structures, SQL, Databases, HTML, XML, GUIs, HTTP Requests, AWS, PineScript, Unix/Linux</p>
-
-            <h3>GitHub Projects</h3>
-            <p>Explore more at <a href="https://github.com/keshavdave15" target="_blank">github.com/keshavdave15</a></p>
-            <ul>
- <li>Android Pizza App: Dynamic pizza ordering application with real-time price calculation and order management (Java).</li>
-                <li>Clinic Manager GUI: A JavaFX-based application for managing clinic appointments and imaging services (HTML, Java).</li>
-                <li>Mysh Project: Custom-built shell terminal implementing core Unix commands (C).</li>
-                <li>Spchk Program: A spell-checking tool developed for Rutgers Systems Programming course (C).</li>
-            </ul>
+            <img src="images/resume.jpeg" alt="Keshav Dave Resume" style="width: 100%; height: auto;">
+            <p><a href="images/resume.jpeg" download>Download my Resume</a></p>
         </section>
     </main>
 
