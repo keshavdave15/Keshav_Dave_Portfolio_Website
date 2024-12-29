@@ -105,3 +105,56 @@ footer {
         width: 150px;
     }
 }
+
+.medium-image {
+    width: 48%; 
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 1%;
+    display: inline-block; /* Align images side by side */
+}
+
+.subtitle {
+    text-align: center;
+    font-style: italic;
+    color: #555; /* Slightly lighter color for subtitles */
+    margin-top: 5px;
+}
+
+/* Personal Projects Section Styles */
+#coding-projects {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.project {
+    margin-bottom: 40px; /* Space between projects */
+    text-align: center; /* Center align text */
+}
+
+.project h3 {
+    font-size: 1.8em; /* Larger project titles */
+    margin-bottom: 10px; /* Space below titles */
+}
+
+.project p {
+    font-size: 1.1em; /* Slightly larger text for descriptions */
+    margin-bottom: 15px; /* Space below descriptions */
+}
+
+.project-video {
+    width: 100%; /* Full width for videos */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 800px; /* Limit max width */
+}
+
+.project-image {
+    width: 100%; /* Full width for images */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 800px; /* Limit max width */
+}
+
+#coding-projects {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+}
