@@ -125,6 +125,73 @@
                     Your browser does not support the video tag.
                 </video>
             </div>
+
+            <div class="project">
+                <h3>Task Management Application</h3>
+                <p>
+                    The <strong>Task Management Application</strong> is a full-stack web app built using <strong>React + TypeScript (frontend), Node.js (backend), and PostgreSQL (database)</strong>. 
+                    It allows users to register, log in, and manage tasks with full CRUD functionality while ensuring secure authentication.
+                </p>
+            
+                <h4>Key Features:</h4>
+                <ul>
+                    <li><strong>User Authentication:</strong> Secure registration and login with hashed passwords (bcrypt) and JWT tokens for authentication.</li>
+                    <li><strong>Task Management:</strong> Users can create, read, update, and delete tasks in a fully interactive UI.</li>
+                    <li><strong>Authentication Protected Routes:</strong> Only authenticated users can perform task operations, ensuring data privacy.</li>
+                </ul>
+            
+                <h4>Backend Setup:</h4>
+                <ul>
+                    <li><strong>Tech Stack:</strong> Node.js, Express.js, PostgreSQL</li>
+                    <li><strong>API Endpoints:</strong>
+                        <ul>
+                            <li><strong>POST /auth/register:</strong> Register a new user.</li>
+                            <li><strong>POST /auth/login:</strong> Log in a user and return JWT.</li>
+                            <li><strong>GET /tasks:</strong> Retrieve all tasks for authenticated user.</li>
+                            <li><strong>POST /tasks:</strong> Create a new task.</li>
+                            <li><strong>PUT /tasks/:id:</strong> Update an existing task.</li>
+                            <li><strong>DELETE /tasks/:id:</strong> Delete a task.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Runs on:</strong> <code>http://localhost:5000</code></li>
+                </ul>
+            
+                <h4>Frontend Setup:</h4>
+                <ul>
+                    <li><strong>Tech Stack:</strong> React, TypeScript</li>
+                    <li><strong>Runs on:</strong> <code>http://localhost:3000</code></li>
+                    <li><strong>Functionality:</strong>
+                        <ul>
+                            <li>Register a user and log in.</li>
+                            <li>Add, edit, complete, or delete tasks.</li>
+                            <li>Session persistence using JWT authentication.</li>
+                            <li>Logout functionality for user session management.</li>
+                        </ul>
+                    </li>
+                </ul>
+            
+                <h4>Challenges & Problem Solving:</h4>
+                <ul>
+                    <li>Establishing seamless authentication across frontend and backend.</li>
+                    <li>Managing protected routes for authenticated users.</li>
+                    <li>Ensuring correct data retrieval and storage for user-specific tasks.</li>
+                    <li>Fixing UI interactions and API response handling.</li>
+                </ul>
+            
+                <h4>Demo & Documentation:</h4>
+                <p>Check the GitHub repository for detailed documentation showcasing:</p>
+                <ul>
+                    <li>User registration and login.</li>
+                    <li>Task creation, updating, and deletion.</li>
+                    <li>Logout and authentication persistence.</li>
+                </ul>
+                <p><a href="https://github.com/keshavdave15/TaskMaster" target="_blank">View Project on GitHub</a></p>
+            
+                <video controls class="project-video">
+                    <source src="images/task_manager_demo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         
             <div class="project">
                 <h3>Clinic Manager GUI</h3>
